@@ -160,4 +160,8 @@ public class DefaultBeanFactory implements BeanFactory, BeanDefinitionRegistry, 
             }
         });
     }
+
+    public Map<String, BeanDefinition> getBeanDefinitionMap() {
+        return beanDefinitionMap;
+    }
 }
